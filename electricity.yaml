@@ -12,6 +12,7 @@ produces:
 paths:
   /predict:
     post:
+      operationId: predictElectricityLoss  
       summary: Make a prediction about electricity loss.
       description: Predicts the chance of losing electricity given the latitude, longitude, and hurricane category.
       consumes:
